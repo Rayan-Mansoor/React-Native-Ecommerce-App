@@ -1,6 +1,3 @@
-# React-Native-Ecommerce-App
-A performant and fault tolerant Ecommerce App with Firebase as backend
-
 # Ziphyr
 ---
 ### A Performant and Fault Tolerant Ecommerce App with Firebase as backend
