@@ -4,8 +4,11 @@ import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
 import * as SplashScreen from 'expo-splash-screen';
 import { useEffect } from 'react';
-
 import { useColorScheme } from '@/components/useColorScheme';
+import { Provider } from 'react-redux';
+import store from '@/store';
+import '@/networkState';
+
 
 export {
   // Catch any errors thrown by the Layout component.
@@ -14,7 +17,7 @@ export {
 
 export const unstable_settings = {
   // Ensure that reloading on `/modal` keeps a back button present.
-  initialRouteName: '(tabs)',
+  initialRouteName: '(user)',
 };
 
 // Prevent the splash screen from auto-hiding before asset loading is complete.
@@ -41,17 +44,24 @@ export default function RootLayout() {
     return null;
   }
 
-  return <RootLayoutNav />;
+  return (
+    <Provider store={store}>
+      <RootLayoutNav />
+    </Provider>
+  );
 }
 
 function RootLayoutNav() {
   const colorScheme = useColorScheme();
 
   return (
-    <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
+    <ThemeProvider value={colorScheme === 'dark'? DarkTheme: DefaultTheme}>
       <Stack>
-        <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        <Stack.Screen name="(user)" options={{ headerShown: false }} />
         <Stack.Screen name="modal" options={{ presentation: 'modal' }} />
+        <Stack.Screen name="checkout-screen" />
+        <Stack.Screen name="product-detail-screen" />
+        <Stack.Screen name="my-orders-screen" />
       </Stack>
     </ThemeProvider>
   );
