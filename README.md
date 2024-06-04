@@ -18,21 +18,21 @@
 
 ##### Screenshots
 
-<div style="display: flex; justify-content: space-between;">
+<div style="display: flex; justify-content: center;">
 
 <div style="text-align: center;">
-    <img src="https://github.com/Rayan-Mansoor/Android-Ecommerce-App-With-Admin-Panel/blob/e4197213a7be996bd702e8aea760566433a009f7/Screenshots/Client%20Home.jpg" alt="User Home Page" width="200">
-    <p>User Home Page ☝️</p>
+    <img src="https://github.com/Rayan-Mansoor/React-Native-Ecommerce-App/blob/95d72da7d03e95a480677d7566107c4cbd8edae6/Screenshots/Screenshot_20240604_235432_ecommerceapp.jpg" alt="User Home Page" width="200">
+    <p>Home Page ☝️</p>
 </div>
 
 <div style="text-align: center;">
-    <img src="https://github.com/Rayan-Mansoor/Android-Ecommerce-App-With-Admin-Panel/blob/d8b5109c48ee421b0966f1ff73b4e03a5398d134/Screenshots/Admin%20Home.jpg" alt="Admin Home Page" width="200">
-    <p>Admin Home Page ☝️</p>
+    <img src="https://github.com/Rayan-Mansoor/React-Native-Ecommerce-App/blob/95d72da7d03e95a480677d7566107c4cbd8edae6/Screenshots/Screenshot_20240604_235455_ecommerceapp.jpg" alt="Product Details Page" width="200">
+    <p>Product Detail Page ☝️</p>
 </div>
 
 <div style="text-align: center;">
-    <img src="https://github.com/Rayan-Mansoor/Android-Ecommerce-App-With-Admin-Panel/blob/d8b5109c48ee421b0966f1ff73b4e03a5398d134/Screenshots/Checkout.jpg" alt="Checkout Page" width="200">
-    <p>Checkout Page ☝️</p>
+    <img src="https://github.com/Rayan-Mansoor/React-Native-Ecommerce-App/blob/95d72da7d03e95a480677d7566107c4cbd8edae6/Screenshots/Screenshot_20240604_235516_ecommerceapp.jpg" alt="Cart Page" width="200">
+    <p>Cart Page ☝️</p>
 </div>
 
 </div>
